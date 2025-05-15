@@ -1,6 +1,5 @@
 const products = [
     {
-      _id: '1',
       name: 'Invictus',
       image: '/images/invic.jpg',
       description:
@@ -13,7 +12,6 @@ const products = [
       numReviews: 12,
     },
     {
-      _id: '2',
       name: 'Kilian Angels’ Share',
       image: '/images/killian.jpg',
       description:
@@ -26,7 +24,6 @@ const products = [
       numReviews: 8,
     },
     {
-      _id: '3',
       name: 'Le Male',
       image: '/images/lemale.jpg',
       description:
@@ -39,7 +36,6 @@ const products = [
       numReviews: 12,
     },
     {
-      _id: '4',
       name: 'L’Homme',
       image: '/images/lhomme.jpg',
       description:
@@ -52,7 +48,6 @@ const products = [
       numReviews: 12,
     },
     {
-      _id: '5',
       name: 'Stronger With You',
       image: '/images/sy.jpg',
       description:
@@ -65,7 +60,6 @@ const products = [
       numReviews: 10,
     },
     {
-      _id: '6',
       name: 'YSL Y',
       image: '/images/ysl.jpg',
       description:
