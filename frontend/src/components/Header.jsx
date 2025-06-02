@@ -1,4 +1,4 @@
-import { Navbar, Nav, Container, Badge } from 'react-bootstrap';
+import { Navbar, Nav, Container, NavDropdown, Badge } from 'react-bootstrap';
  import { FaShoppingCart, FaUser } from 'react-icons/fa';
  import logo from '../assets/logo.png'
  import { useSelector } from 'react-redux';
@@ -6,6 +6,10 @@ import { Navbar, Nav, Container, Badge } from 'react-bootstrap';
 
  
  const Header = () => {  const { cartItems } = useSelector((state) => state.cart);
+
+
+   const { userInfo } = useSelector((state) => state.auth);
+
 
 
    return (
