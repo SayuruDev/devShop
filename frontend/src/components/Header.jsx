@@ -11,7 +11,7 @@ import { Navbar, Nav, Container, NavDropdown, Badge } from 'react-bootstrap';
    const { userInfo } = useSelector((state) => state.auth);
 
 
-
+   
    return (
      <header>
        <Navbar bg='dark' variant='dark' expand='lg' collapseOnSelect>
